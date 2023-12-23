@@ -1,0 +1,174 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*hero*/
+.hero_inicio {
+  
+  background-image: url(/images/patitas_background.jpg);
+  display: flex;
+}
+
+.hero_main > div {
+    flex: 1;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    
+}
+ .hero_text h4 {
+    color: rgb(165, 95, 2);
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 4rem;
+ }
+
+ .hero_text h2 {
+    color: rgb(165, 95, 2);
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    
+ }
+
+ .hero_parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(165, 95, 2);
+    
+ }
+
+ .hero_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ /* footer*/
+
+ .footer{
+    background-color: #212529;
+    color: white;
+    padding: 2rem;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ 
+.footer_top > div {
+    flex: 1 1 0;
+}
+
+ .footer_top{
+    display: flex;
+    justify-content: center;
+    align-items: center
+ }
+
+ .footer_top .direccion{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .direccion{ 
+   align-items: end;
+ }
+
+ .footer_top h2{
+    font-weight: 30060;
+    font-size: 2rem;
+ }
+
+ .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: end;
+    
+    ;}
+
+ 
+ .footer_bottom .icons a {
+    color: white;
+    letter-spacing: 2rem;
+    ;
+ }
+
+ /*shop*/
+ .body{
+   background-image: url(/images/patitas_background.jpg);
+ }
+ .tarjetas{
+   width: 100%;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+
+   
+ }
+ 
+ .tarjeta{
+   background-color: #000000;
+   color:white ;
+   border-radius: 30px;
+   overflow: hidden;
+   gap: 20px;
+   font-family:'Quicksand';
+   display: flex;
+   flex-direction: column;
+ }
+
+ .informacion_tarjeta{
+   padding: 0 20px 20px 20px;
+
+ }
+
+ .imagen_shop{
+   width: 100%;
+ }
+
+
+   
+ 
+
+
+ @media screen and (max-width: 768px){
+
+   .hero_inicio{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .hero_img{
+      display: flex;
+   }
+
+   .tarjetas {
+      display: flex;
+      flex-direction: column; }
+
+   
+   
+ 
+
+ @media  screen and (max-width: 480px) {
+   .tarjetas {
+      display: flex;
+      flex-direction: column; }
+ }
