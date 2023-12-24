@@ -142,6 +142,29 @@
  }
 
 
+ /*envios*/
+
+ .envios {
+   background-image: url(/images/patitas_background.jpg);
+ }
+
+
+ .titulo_envios{ 
+   color: rgb(165, 95, 2);
+   font-size: 4rem;
+ }
+
+ .texto_envios{
+   color: rgb(165, 95, 2);
+   font-size: 2rem;
+ }
+
+ .mapa{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
    
  
 
@@ -163,6 +186,11 @@
       flex-direction: column; }
 
  }
+
+ .footer{
+   display: flex;
+   flex-direction: column;
+ }
    
  
 
@@ -170,4 +198,9 @@
    .tarjetas {
       display: flex;
       flex-direction: column; }
+ }
+
+   .footer{
+   display: flex;
+   flex-direction: column;
  }
