@@ -10,7 +10,7 @@
 /*hero*/
 .hero_inicio {
   
-  background-image: url(/images/patitas_background.jpg);
+  background-image: url(../images/patitas_background.jpg);
   display: flex;
 }
 
