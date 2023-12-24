@@ -109,10 +109,9 @@
  }
 
  /*shop*/
- .body{
-   background-image: url(/images/patitas_background.jpg);
- }
+ 
  .tarjetas{
+   background-image: url(/images/patitas_background.jpg);
    width: 100%;
    padding: 2rem;
    display: flex;
@@ -163,11 +162,11 @@
       display: flex;
       flex-direction: column; }
 
-   
+ }
    
  
 
- @media  screen and (max-width: 480px) {
+ @media  screen and (max-width: 480px){
    .tarjetas {
       display: flex;
       flex-direction: column; }
