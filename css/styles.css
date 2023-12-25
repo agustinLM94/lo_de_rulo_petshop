@@ -111,7 +111,7 @@
  /*shop*/
  
  .tarjetas{
-   background-image: url(/images/patitas_background.jpg);
+   background-image: url(../images/patitas_background.jpg);
    width: 100%;
    padding: 2rem;
    display: flex;
@@ -145,7 +145,7 @@
  /*envios*/
 
  .envios {
-   background-image: url(/images/patitas_background.jpg);
+   background-image: url(../images/patitas_background.jpg);
  }
 
 
@@ -169,7 +169,7 @@
  /*galeria*/
 
  .galeria{
-   background-image: url(/images/patitas_background.jpg);
+   background-image: url(../images/patitas_background.jpg);
  }
 
  .container_img{
@@ -206,7 +206,7 @@
 
 /*quienes somos*/
 .quienes_somos{
-   background-image: url(/images/patitas_background.jpg);
+   background-image: url(../images/patitas_background.jpg);
 }
 
 .quienes_somos .titulo_quienes{
