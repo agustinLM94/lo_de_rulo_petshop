@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@400;500;700&display=swap');
 
 
 *{
@@ -10,7 +10,7 @@
 /*hero*/
 .hero_inicio {
   
-  background-image: url(../images/patitas_background.jpg);
+  background-image: url(../images/fondo_patitas_green.jpg);
   display: flex;
 }
 
@@ -111,7 +111,7 @@
  /*shop*/
  
  .tarjetas{
-   background-image: url(../images/patitas_background.jpg);
+   background-image: url(../images/fondo_patitas_green.jpg);
    width: 100%;
    padding: 2rem;
    display: flex;
@@ -122,7 +122,7 @@
  }
  
  .tarjeta{
-   background-color: #000000;
+   background-color: #177914;
    color:white ;
    border-radius: 30px;
    overflow: hidden;
@@ -139,13 +139,14 @@
 
  .imagen_shop{
    width: 100%;
+   background-color: #177914;
  }
 
 
  /*envios*/
 
  .envios {
-   background-image: url(../images/patitas_background.jpg);
+   background-image: url(../images/fondo_patitas_green.jpg);
  }
 
 
@@ -169,7 +170,7 @@
  /*galeria*/
 
  .galeria{
-   background-image: url(../images/patitas_background.jpg);
+   background-image: url(../images/fondo_patitas_green.jpg);
  }
 
  .container_img{
@@ -206,7 +207,7 @@
 
 /*quienes somos*/
 .quienes_somos{
-   background-image: url(../images/patitas_background.jpg);
+   background-image: url(../images/fondo_patitas_green.jpg);
 }
 
 .quienes_somos .titulo_quienes{
