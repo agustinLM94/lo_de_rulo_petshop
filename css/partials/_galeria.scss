@@ -39,7 +39,7 @@
          }
 
             .text_galeria {
-               
+               font-size: 30px ;
                font-family: $font_quicksand;
                color: wheat;
                background: rgb(22,98,40);
@@ -50,4 +50,8 @@
                align-items: center;
                padding: 2rem;
             }
+
+               .h3{
+                  font-size: 30px 
+               }
   }

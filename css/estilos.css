@@ -188,6 +188,7 @@
   grid-row-start: span 2;
 }
 .galeria .text_galeria {
+  font-size: 30px;
   font-family: "Quicksand", sans-serif;
   color: wheat;
   background: rgb(22, 98, 40);
@@ -197,6 +198,9 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+.galeria .h3 {
+  font-size: 30px;
 }
 
 .quienes_somos {
@@ -287,6 +291,10 @@
 .container_img {
   width: 90%;
   grid-template-columns: repeat(1, 1fr);
+}
+
+.container_img .box_img .text_galeria h3 {
+  font-size: 15px;
 }
 
 .container_img .box_img img {
