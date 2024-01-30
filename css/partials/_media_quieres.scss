@@ -13,6 +13,12 @@
     .tarjetas {
        display: flex;
        flex-direction: column; }
+
+    .cards{
+       display: flex;
+       flex-direction: column ;
+      }
+    
  
   }
  
@@ -33,10 +39,19 @@
     grid-template-columns: span 1;
   }
 
+  
+
+
+
   @media  screen and (max-width:500px){
     .tarjetas {
        display: flex;
        flex-direction: column; }
+
+    .cards{
+       display: flex;
+       flex-direction: column ;
+       }
   }
  
     .footer{
@@ -58,3 +73,6 @@
     .container_img .box_img img{
        height: 200px;
     }
+
+
+   

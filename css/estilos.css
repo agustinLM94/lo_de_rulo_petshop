@@ -214,10 +214,10 @@
   * w: http://animista.net, t: @cssanimista
   * ---------------------------------------------- */
   /**
-   * ----------------------------------------
-   * animation tracking-in-expand-fwd-bottom
-   * ----------------------------------------
-   */
+  * ----------------------------------------
+  * animation tracking-in-expand-fwd-bottom
+  * ----------------------------------------
+  */
 }
 .quienes_somos .titulo_quienes {
   min-height: 100vh;
@@ -247,6 +247,55 @@
   }
 }
 
+.caracteristicas {
+  background-image: url(../images/fondo_patitas_green.jpg);
+  padding: 3rem;
+}
+.caracteristicas .caracteristicas-title {
+  font-weight: 800;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(39, 27, 12);
+  margin-bottom: 3rem;
+}
+.caracteristicas .cards {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  gap: 2rem;
+}
+.caracteristicas .card-1 {
+  width: 100%;
+  color: wheat;
+  background-color: #0f0f0f;
+}
+.caracteristicas .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.caracteristicas .card-text {
+  margin: 5px;
+  padding: 5px;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+.caracteristicas .card-link {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: wheat;
+}
+.caracteristicas .card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 800px) {
   .hero_inicio {
     height: 100vh;
@@ -257,6 +306,10 @@
     display: flex;
   }
   .tarjetas {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards {
     display: flex;
     flex-direction: column;
   }
@@ -279,6 +332,10 @@
 
 @media screen and (max-width: 500px) {
   .tarjetas {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards {
     display: flex;
     flex-direction: column;
   }
