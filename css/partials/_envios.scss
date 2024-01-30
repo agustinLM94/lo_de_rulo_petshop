@@ -2,14 +2,27 @@
     background-image: $background_pages;
 
     .titulo_envios{ 
+        font-weight: 800;
+        font-family: $font_quicksand;
         color: $color_texto;
         font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     
     .texto_envios{
-        color: $color_texto;
-        font-size: 2rem;
-      }
+      font-size: 30px ;
+      font-family: $font_quicksand;
+      color: wheat;
+      background: rgb(22,98,40);
+      background: linear-gradient(90deg, rgba(22,98,40,1) 0%, rgba(4,150,36,1) 40%, rgba(10,153,96,1) 100%);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
 
     .mapa{
         width: 100%;
@@ -17,5 +30,5 @@
         justify-content: center;
         align-items: center;
       }
-  }
- 
+  
+}
